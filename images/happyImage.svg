@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+
+  <!-- Head -->
+  <circle cx="100" cy="60" r="20" fill="yellow" />
+
+  <!-- Body -->
+  <rect x="90" y="80" width="20" height="40" fill="blue" />
+
+  <!-- Legs -->
+  <rect x="90" y="120" width="10" height="20" fill="green" />
+  <rect x="100" y="120" width="10" height="20" fill="green" />
+
+  <!-- Arms -->
+  <rect x="80" y="80" width="10" height="30" fill="red" />
+  <rect x="110" y="80" width="10" height="30" fill="red" />
+
+  <!-- Jumping Animation -->
+  <animateTransform
+    attributeName="transform"
+    attributeType="XML"
+    type="translate"
+    values="0 0; 0 -20; 0 0"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+  />
+
+</svg>
